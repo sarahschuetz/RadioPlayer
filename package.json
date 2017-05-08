@@ -1,0 +1,19 @@
+{
+  "name": "radio-player",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahschuetz/RadioPlayer.git"
+  },
+  "author": "Sarah Schütz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahschuetz/RadioPlayer/issues"
+  },
+  "homepage": "https://github.com/sarahschuetz/RadioPlayer#readme"
+}
