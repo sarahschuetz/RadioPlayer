@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base public --open --history-api-fallback"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,12 @@
     "babel-preset-stage-1": "^6.24.1",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-1",
+      "react"
+    ]
   }
 }
